@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+input[type="submit"]{
+    
+    border: 2px solid #FF0000;
+    border-radius: 4px;
+    
+    background: linear-gradient(8deg, #4169e1, #b0c4de);
+    color: #FFF;
+}
+
+input[type="reset"]{
+     
+    border: 2px solod #FF0000;
+    border-radius: 4px;
+    
+    background: linear-gradient(8deg, #c71585, #ffc0cb);
+    color: #FFF;
+}
+
+
