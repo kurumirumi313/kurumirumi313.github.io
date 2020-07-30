@@ -1,0 +1,71 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/otoiawase.css">
+        <title>質問箱</title>
+    </head>
+    
+    <body>
+        
+        <div>
+        
+            <h1>質問箱設置しました！</h1>
+            
+            <div>
+                <h2>質問お気軽にどうぞ！</h2>
+                
+                <form action="#" method="get">
+                    
+                <p> 
+                    <label for="lastname">姓:</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="姓" required />
+                    
+                    <label>
+                        名：
+                        <input type="text" name="firstname" placeholder="名"/>
+                    </label>
+                </p>
+                 
+                <p>
+                    <label><input type="radio" name="seibetsu" value="female" />女性</label>
+                    
+                    <label><input type="radio" name="seibetsu" value="male" />男性</label>
+                
+                    <label><input type="radio" name="seibetsu" value="other" />その他</label>
+                </p>
+                    
+                <p>
+                    <label for="requests">質問:</label>
+                    <textarea id="requests" name="requests" rows="8" cols="60"></textarea>
+                </p>
+                    
+                <p>
+                    <label for="birthday">誕生日：</label>
+                    <input type="date" />    
+                </p>  
+                
+                <p>
+                    <label for="color">好きな色：</label>
+                    <input type="color" />       
+                </p>
+                <p>
+                   <label for="food">好きな食べ物</label> 
+                    <input type="text" />
+                </p>    
+                    
+                <p>
+                    <input type="submit" value="送信する"/>
+                    <input type="reset" value="リセット"/>
+                    
+                </p>
+
+                </form>
+            
+            </div>
+        
+        </div>
+        
+    </body>
+    
+</html>
